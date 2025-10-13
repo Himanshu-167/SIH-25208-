@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback styles if Tailwind is not available yet */
+html, body, #root {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background: #f3f4f6; /* gray-100 */
+}
+
+/* Small utility used by App when Tailwind classes are missing */
+.min-h-screen { min-height: 100vh; }
+.bg-gray-100 { background-color: #f3f4f6; }
+.text-indigo-600 { color: #4f46e5; }

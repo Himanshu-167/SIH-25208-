@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "npm --prefix ./SIH(25208) run dev",
+    "build": "npm --prefix ./SIH(25208) run build",
+    "preview": "npm --prefix ./SIH(25208) run preview"
+  },
+  "dependencies": {
+    "firebase": "^12.4.0"
+  }
+}
